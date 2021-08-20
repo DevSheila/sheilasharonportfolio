@@ -10204,12 +10204,7 @@ section.resume-section .resume-section-content {
 .projects .project-section .content .project4{
   background: url("../assets/img/pizza.PNG");
 }
-.projects .project-section .content .project5{
-  background: url("../assets/img/gamers.PNG");
-}
-.projects .project-section .content .project6{
-  background: url("../assets/img/gamers\ league.PNG");
-}
+
 
 
 
@@ -10229,8 +10224,11 @@ section.resume-section .resume-section-content {
 .projects .project-section .content .footer p {
   font-size: 12px;
 }
+.projects .project-section .content .footer .extra-link {
+  font-size: 12px;
+}
 
-.projects .project-section .content .footer a {
+.projects .project-section .content .footer .check{
   align-self: flex-end;
   cursor: pointer;
   text-decoration: none;
@@ -10244,8 +10242,9 @@ section.resume-section .resume-section-content {
   background: -webkit-linear-gradient(left,#373b44, #4286f4);
   text-decoration: none;
 }
+  
 
-.projects .project-section .content .footer a:hover {
+.projects .project-section .content .footer .check:hover {
   background: -webkit-linear-gradient(left,  #005c97, #363795);
 }
 
